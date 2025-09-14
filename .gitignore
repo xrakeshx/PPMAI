@@ -205,3 +205,12 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+.env
+.schwab_tokens.json
+.schwab_token.json
+.schwab_*.json
+signals_cache.json
+summary_cache.json
+summary_state.json
+sources.resolved.yaml
