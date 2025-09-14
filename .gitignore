@@ -214,3 +214,14 @@ signals_cache.json
 summary_cache.json
 summary_state.json
 sources.resolved.yaml
+
+pycache/ *.py[cod] *.py[codz] *$py.class *.egg-info/ *.egg dist/ build/ .eggs/ lib/ lib64/ wheels/ share/python-wheels/
+.venv/ venv/ env/ ENV/ env.bak/ venv.bak/
+.DS_Store .vscode/ .idea/ .ipynb_checkpoints .pytest_cache/ .ruff_cache/
+*.log
+.pdm-python .pdm-build/ .pixi .pyre/ .pytype/ .mypy_cache/ .dmypy.json dmypy.json .cursorignore .cursorindexingignore .abstra/
+.env .envrc .token.json token.json .schwab_tokens.json .schwab_token.json .schwab_.json
+
+signals_cache.json summary_cache.json summary_state.json sources.resolved.yaml
+
+
